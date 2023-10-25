@@ -14,12 +14,6 @@ abstract class Vehicle {
     public abstract void displayPassengers();
 }
 
-// Interface for handling file operations
-interface FileHandler {
-    void saveToFile(String fileName) throws IOException;
-    void loadFromFile(String fileName) throws IOException;
-}
-
 // Class to represent a bus
 class Bus extends Vehicle {
     private ArrayList<Passenger> passengers;
